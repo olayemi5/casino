@@ -1,0 +1,11 @@
+Blue
+	First Occurence - 10
+	Second //	- 55
+	Third //	- 100
+	Fourth // 	- 145
+	Fifth //	- 190
+	Sixth // 	- 240
+	Seventh // 	- 293
+	Eight //	- 343
+	Back to Start - 369	
+Blue posibilies - 145

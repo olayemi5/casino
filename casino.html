@@ -22,7 +22,7 @@
       position:absolute;
       width:500px;
       height:500px;
-      top:40;
+      top:0;
       left:190;
     }
     #question{
@@ -84,11 +84,11 @@
     <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <script type="text/javascript">
 
-        var $elie = $("#chart"), degree = 0, timer, interval = 6;
+        var $elie = $("#chart"), degree = 0, timer, interval = 1;
         rotate();
 
         function rotate() {
-            if (degree == 145) {
+            if (degree == 417) {
               stopRoll();
             }
             $elie.css({ WebkitTransform: 'rotate(' + degree + 'deg)'});
