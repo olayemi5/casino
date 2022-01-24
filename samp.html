@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+      <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+      <script type="text/javascript">
+        var arc = d3.svg.arc()
+            .innerRadius(50)
+            .outerRadius(70)
+            .startAngle(45 * (Math.PI/180)) //converting from degs to radians
+            .endAngle(3) //just radians
+
+        vis.append("path")
+            .attr("d", arc)
+            .attr("transform", "translate(200,200)")
+      </script>
+  </body>
+</html>
